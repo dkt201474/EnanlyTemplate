@@ -1,0 +1,48 @@
+@media (max-width: 464px) {
+
+/*********************
+=NAV               * *
+**********************/
+
+	.navbar-nav {
+	        margin-top: 6px;
+	}
+	.navbar-default {
+	        height: 63px;
+	}
+
+/*********************
+=SLIDER            * *
+**********************/
+
+	.slider {
+	        margin: 94px 0px 0px 0px;
+	}
+
+
+/******************************
+=GENERAL STYLES FOR SECTION * *
+*******************************/
+
+	section h1 {
+	        font-size: 25px;
+	        margin-top: 5px;
+	}
+	section h2 {
+	        font-size: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,286 @@
+/*********************
+=GENERAL STYLES    * *
+**********************/
+    body { 
+        font-weight:normal; font-size:14px; 
+        font-family:Source Sans Pro, sans-serif; 
+        color: #777;
+        text-rendering: optimizelegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    /*********************
+    =TYPOGRAPHIE       * *
+    **********************/
+        h1, h2, h3, h4, h5, h6 {
+         font-weight:bold; 
+         line-height:normal; 
+        }
+        h1, h2, h3 {
+            text-transform:uppercase; 
+        }
+        h1 { 
+            font-size:50px; 
+            font-weight: 700;
+        }
+        h2 { 
+            font-size:48px; 
+        }
+        h3 { 
+            font-size:30px; 
+        }
+
+        a {
+            font-size: 15px;
+            font-weight: 400;
+            color: #777;
+        }
+        a:hover {
+            color: #f39c12;
+        }
+    /*********************
+    =COLOR             * *
+    **********************/
+        .orange {
+            color: #f39c12;
+        }
+        .light-gray {
+            color: #777;
+        }
+        .white {
+            color:white;
+        }
+        .gray {
+            color: #222;
+        }
+        .bg-white {
+            background: #fff;
+        }
+        .bg-gray {
+            background: #FCFCFC;
+        }
+
+/*********************
+=TOP HEADER        * *
+**********************/
+    header {
+        box-shadow: 0 3px 6px -2px rgba(0, 0, 0, 0.15);
+    }
+    .header .orange-bar {
+        height: 2px; 
+        background: #f39c12;
+    }
+    .icon-xs {
+        width: 15px;
+        height: 15px;
+        margin-right: 3px;
+    }
+    button {
+        background: none;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    button.language {
+        font-size: 12px;
+        display: inline-block;
+        margin-right: 6px;
+    }
+    .btn-group img{
+        height: 11px;
+        width: 16px;
+    }
+    .btn-group.open .dropdown-toggle {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+/*********************
+=NAV               * *
+**********************/
+    .logo {
+        display: block;
+        width: 60px;
+        height: 55px;
+        background: url("../imgs/enanly-logo.png") no-repeat center;
+        background-size: 60px 55px;
+        opacity: .9;
+    }
+    span.logo:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+    .navbar-default {
+        background: #fff;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.045);
+        border-bottom: 1px solid #eee;
+        padding: 5px 0px;
+        margin-top: -1px;
+        height: 70px;
+        margin-bottom: 0;
+    }
+    .navbar-nav {
+        padding-top: 5px;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #f39c12;
+    }
+    .navbar-default .navbar-nav>li>a:last-child{
+        padding-right: 10px;
+    }
+    .navbar-collapse {
+        border: none;
+    }
+
+/*********************
+=SLIDER            * *
+**********************/
+    .slider{
+        height: 500px;
+        background: #eee;
+        margin: 101px 0px 0px 0px;
+    }
+
+/******************************
+=GENERAL STYLES FOR SECTION * *
+*******************************/
+    section {
+        min-height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-top:1px #E7E7E7 solid; 
+    }
+    section p {
+        line-height: 22px;
+    }
+    section h1 {
+        font-size: 48px;
+        color: #222;
+        margin-top: 5px;
+    }
+    section h2 {
+        font-size: 25px;
+        font-weight: 200;
+        color: #2d2d29
+    }
+
+    .hr {
+        min-width: 75px;
+        max-width: 180px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+/*********************
+=QUI SOMMES NOUS ? * *
+**********************/
+    .pdg-pic {
+        max-width: 300px;
+        max-height: 300px;
+        width: 250px;
+        height: 250px;
+        border-radius: 300px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,.05);
+        background: url("../imgs/pdg-pic.png") no-repeat center;
+        background-size: cover;
+        opacity: .9;
+    }
+    .pdg-pic:hover {
+        box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+    }
+
+/*********************
+=NOS SERVICES      * *
+**********************/
+    #nos-services article img {
+       max-height: 90px;
+       max-width: 90px;
+       opacity: .9;
+    }
+    #nos-services article img {
+       max-height: 150px;
+       max-width: 150px;
+       height: 150px;
+       width: 150px;
+       border-radius: 150px;
+       border: 2px #f39c12 solid;
+       margin: 0 auto;
+       padding: 30px;
+    }
+    #nos-services article img:hover {
+        cursor: pointer;
+        opacity: 1;
+
+    }
+
+/*********************
+=NOUVEAUX SERVICES * *
+**********************/
+    #nouveaux-services .side-left button {
+        color: #666;
+    }
+    #nouveaux-services .side-left button i {
+        color: #888;
+    }
+    .h-border {
+        border-bottom: 1px dashed rgba(0,0,0,0.075);
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+    #nouveaux-services .circle {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: #eee;
+        margin-top: 25px;
+    }
+ 
+    #nouveaux-services .circle img {
+        max-height: 50px;
+        max-width: 50px;
+    }
+
+/*********************
+=NOUS CONTACTER    * *
+**********************/
+    #nous-contacter {
+        display: block;
+        min-height: 400px;
+        background: #222;
+    }
+    #nous-contacter em {
+        margin-top: 0px;
+    }
+    #nous-contacter textarea {
+        height: 178px;
+    }
+    
+    #nous-contacter button {
+        width: 200px;
+    }
+
+/*********************
+=FOOTER            * *
+**********************/
+    footer {
+        height: 20px;
+        background: #fff;
+    }
+    
+    footer p {
+        margin-top: 8px;
+        font-size: 0.75em;
+    }

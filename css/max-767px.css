@@ -1,0 +1,64 @@
+@media (max-width: 767px) {
+
+/*********************
+=NAV               * *
+**********************/
+	.navbar-nav {
+	    padding-top: 10px;
+	    margin: 0 auto;
+	    width: 100%;
+	    background: #f6f6f6;
+	    border-bottom: 1px solid #eee;
+	    margin-top: 8px;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover {
+	    background: #fff;
+	}
+	.logo {
+        display: block;
+        width: 60px;
+        height: 55px;
+        background: url("../imgs/enanly-logo.png") no-repeat center;
+        background-size: 40px 35px;
+        opacity: .9;
+	}
+	.logo-box {
+	    max-height: 55px;
+	}
+
+
+/*********************
+=SLIDER            * *
+**********************/
+	.slider {
+	        max-height: 350px;
+	}
+
+
+
+/*********************
+=QUI SOMMES NOUS ? * *
+**********************/
+   .pdg-pic {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+/*********************
+=NOUVEAUX SERVICES * *
+**********************/
+	#nouveaux-services .side-left {
+	    text-align: left;
+	    margin-bottom: 50px;
+	}
+	#nouveaux-services .side-left p {
+	    margin-top: 15px;
+	}
+	.content {
+		margin-left: 75px;
+	}
+
+
+}
